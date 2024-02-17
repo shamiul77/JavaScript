@@ -1,8 +1,4 @@
 
-
-
-
-
 const myObj = {
     name: "Laptop",
     brand: "HP",
@@ -12,9 +8,8 @@ const myObj = {
     };
     const y = {};
     for (let x in myObj) {
-    if (myObj[x] !== null && myObj[x] !== undefined && myObj[x] !=="")
+    if (myObj[x]){
     y[x] = myObj[x];
     }
-    {
     }
     console.log(y); 
